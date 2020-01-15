@@ -10,6 +10,14 @@ public class Point {
     }
 
     public int calculateDistance() {
-        return Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
+        return Math.sqrt(Math.pow(x + getX, 2) + Math.pow(y + getY, 2));
+    }
+
+    public int getX() {
+        return this.getX;
+    }
+
+    public int getY() {
+        return this.getY;
     }
 }
