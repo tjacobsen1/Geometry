@@ -18,7 +18,7 @@ class Triangle{
         double sideThree = ptThree.calculateDistance(ptOne);
         double semPerimeter = (sideOne + sideTwo + sideThree)/2;
 
-        return 0.0;
+        return Math.sqrt(semPerimeter * (semPerimeter-sideOne) * (semPerimeter-sideTwo) * (semPerimeter- sideThree));
     }
 
 
