@@ -9,15 +9,15 @@ public class Point {
         this.y = y;
     }
 
-    public int calculateDistance() {
-        return Math.sqrt(Math.pow(x + getX, 2) + Math.pow(y + getY, 2));
+    public int calculateDistance(Point point2) {
+        return Math.sqrt(Math.pow(x + point2.getX, 2) + Math.pow(y + point2.getY, 2));
     }
 
     public int getX() {
-        return this.getX;
+        return this.x;
     }
 
     public int getY() {
-        return this.getY;
+        return this.y;
     }
 }
