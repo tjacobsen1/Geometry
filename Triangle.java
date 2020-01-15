@@ -13,7 +13,11 @@ class Triangle{
     }
 
     public double area(){
-        
+        double sideOne = ptOne.calculateDistance(ptTwo);
+        double sideTwo = ptTwo.calculateDistance(ptThree);
+        double sideThree = ptThree.calculateDistance(ptOne);
+        double semPerimeter = (sideOne + sideTwo + sideThree)/2;
+
         return 0.0;
     }
 
