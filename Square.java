@@ -26,7 +26,7 @@ class Square{
 
     public boolean collision(Square sq2){
         for(int i = 0; i < 4; i++){
-            if((points[i].getX() < sq2.getPoint(0).getX() && points[i].getX() > sq2.getPoint(2).getX())){
+            if((points[i].getX() < sq2.getPoint(0).getX() && points[i].getX() > sq2.getPoint(2).getX())){//just x need to test y
 
             }
         }
